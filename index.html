@@ -24,6 +24,48 @@
               <use href="images/icons-svg.svg#icon-close"></use>
             </svg>
           </button>
+          <h2 class="request-form-title">
+            Leave your information and we'll call you back
+          </h2>
+          <form name="request-services-form" class="modal-form">
+            <label class="modal-form-label"
+              >Name
+              <input type="text" name="name" />
+              <svg width="20px" height="20px">
+                <use href="images/icons-svg.svg#icon-form-username"></use>
+              </svg>
+            </label>
+            <label class="modal-form-label">
+              Telephone
+              <input type="tel" name="telephone" />
+              <svg width="20px" height="20px">
+                <use href="images/icons-svg.svg#icon-form-phone"></use>
+              </svg>
+            </label>
+            <label class="modal-form-label"
+              >E-mail
+              <input type="email" name="email" />
+              <svg width="20px" height="20px">
+                <use href="images/icons-svg.svg#icon-form-email"></use>
+              </svg>
+            </label>
+            <label class="modal-form-label"
+              >Comments
+              <textarea name="comments" placeholder="Enter the text"></textarea>
+            </label>
+            <label class="terms-checkbox">
+              <input type="checkbox" name="terms" />
+              <svg width="16px" height="15px" class="checkbox">
+                <use href="images/icons-svg.svg#icon-checkbox"></use>
+              </svg>
+              <svg width="11px" height="8px" class="check-mark">
+                <use href="images/icons-svg.svg#icon-checked"></use>
+              </svg>
+              I agree with the letter and accept the
+              <a href="#">Terms and Conditions</a>
+            </label>
+            <button type="submit">Send</button>
+          </form>
         </div>
       </div>
     </section>
@@ -463,6 +505,24 @@
             </ul>
           </div>
         </div>
+        <form name="subscribe-form" class="subscribe-form">
+          <label for="email-subscription" class="form-title"
+            >Subscribe to the newsletter
+          </label>
+          <div class="footer-input">
+            <input
+              type="email"
+              placeholder="E-mail"
+              name="email-subscription"
+            />
+            <button type="submit" class="subscription-button">
+              Subscribe
+              <svg width="24px" height="24px">
+                <use href="./images/icons-svg.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </footer>
     </div>
     <script src="./js/modal.js"></script>
