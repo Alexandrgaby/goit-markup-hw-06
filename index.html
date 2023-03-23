@@ -24,41 +24,44 @@
               <use href="images/icons-svg.svg#icon-close"></use>
             </svg>
           </button>
-          <h2 class="request-form-title">
+          <h2 class="modal-window-title">
             Leave your information and we'll call you back
           </h2>
-          <form name="request-services-form" class="modal-form">
-            <label class="modal-form-label"
+          <form name="modal-window-main" class="modal-window-main">
+            <label class="modal-window-label"
               >Name
               <input type="text" name="name" />
               <svg width="20px" height="20px">
                 <use href="images/icons-svg.svg#icon-form-username"></use>
               </svg>
             </label>
-            <label class="modal-form-label">
+            <label class="modal-window-label">
               Telephone
               <input type="tel" name="telephone" />
               <svg width="20px" height="20px">
                 <use href="images/icons-svg.svg#icon-form-phone"></use>
               </svg>
             </label>
-            <label class="modal-form-label"
+            <label class="modal-window-label"
               >E-mail
               <input type="email" name="email" />
               <svg width="20px" height="20px">
                 <use href="images/icons-svg.svg#icon-form-email"></use>
               </svg>
             </label>
-            <label class="modal-form-label"
+            <label class="modal-window-label"
               >Comments
-              <textarea name="comments" placeholder="Enter the text"></textarea>
+              <textarea
+                name="comments-section"
+                placeholder="Enter the text"
+              ></textarea>
             </label>
-            <label class="terms-checkbox">
+            <label class="terms-modal-window">
               <input type="checkbox" name="terms" />
-              <svg width="16px" height="15px" class="checkbox">
+              <svg width="16px" height="15px" class="terms-window-mark">
                 <use href="images/icons-svg.svg#icon-checkbox"></use>
               </svg>
-              <svg width="11px" height="8px" class="check-mark">
+              <svg width="11px" height="8px" class="terms-window-mark-checked">
                 <use href="images/icons-svg.svg#icon-checked"></use>
               </svg>
               I agree with the letter and accept the
@@ -505,17 +508,17 @@
             </ul>
           </div>
         </div>
-        <form name="subscribe-form" class="subscribe-form">
-          <label for="email-subscription" class="form-title"
+        <form name="subscribe-form" class="newsletter-footer">
+          <label for="email-subscription" class="newsletter-title"
             >Subscribe to the newsletter
           </label>
-          <div class="footer-input">
+          <div class="newsletter-modal-window">
             <input
               type="email"
               placeholder="E-mail"
               name="email-subscription"
             />
-            <button type="submit" class="subscription-button">
+            <button type="submit" class="newsletter-button">
               Subscribe
               <svg width="24px" height="24px">
                 <use href="./images/icons-svg.svg#icon-send"></use>
